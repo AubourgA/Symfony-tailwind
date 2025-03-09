@@ -27,7 +27,7 @@ composer install
 ```
 
 ### 3️⃣ Configurer la base de données
-Créer un fichier .env.local pour y renseigner vos paramètres de base de données :
+Créer un fichier `.env.local` pour y renseigner vos paramètres de base de données :
 
 ```sh
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=8.0"
